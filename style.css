@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000018;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    color: turquoise;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: turquoise;
+    font-size: 100px;
+    margin-top: 120px;
+}
+
+.selector option{
+    color: turquoise;
+    
+}
+.selector select{
+    font-size: 16px;
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    color: turquoise;
+    margin: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.selector{
+    display: flex;
+    justify-content: center;
+}
+
+.myButtonn button{
+    height: 50px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 2px solid #40e0d0;
+    transition: 0.8s ease;
+    box-shadow: 0 0 0 0 #40e0d0 inset;
+}
+.myButtonn button:hover {
+    box-shadow: 400px 0px 0 0 #40e0d0 inset;
+    cursor: pointer;
+}
+
+.myButtonn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width: 680px){
+    #timer{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 556px){
+    #timer{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 400px){
+    #timer{
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 375px){
+    #timer{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 360px){
+    #timer{
+        font-size: 48px;
+    }
+}
