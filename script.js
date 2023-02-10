@@ -1,7 +1,8 @@
-let alarm = new Audio('alarm.wav');
+    let alarm = new Audio('alarm.wav');
+    var timerRunning = false;
+    var currentTimer = null;
 
-  var timerRunning = false;
-var currentTimer = null;
+    
 function startTimer(){
     var hourSelect = parseInt(document.getElementById('hour').value);
     var minSelect = parseInt(document.getElementById('min').value); 
